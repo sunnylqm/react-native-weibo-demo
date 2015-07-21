@@ -24,7 +24,6 @@
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		31BE134B6A085B745C4F3017 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1FCA3B143287A2457C057A /* libPods.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		A33310881B5DF26300846A34 /* rnweibo.m in Sources */ = {isa = PBXBuildFile; fileRef = A33310871B5DF26300846A34 /* rnweibo.m */; };
 		A333108A1B5DF40800846A34 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33310891B5DF40800846A34 /* CoreGraphics.framework */; };
 		A333108C1B5DF40E00846A34 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A333108B1B5DF40E00846A34 /* CoreTelephony.framework */; };
 		A333108E1B5DF41400846A34 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A333108D1B5DF41400846A34 /* CoreText.framework */; };
@@ -36,6 +35,7 @@
 		A333109A1B5DF44100846A34 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33310991B5DF44100846A34 /* QuartzCore.framework */; };
 		A333109C1B5DF45500846A34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A333109B1B5DF45500846A34 /* Foundation.framework */; };
 		A333109E1B5DF46A00846A34 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A333109D1B5DF46A00846A34 /* ImageIO.framework */; };
+		A33311241B5E07D400846A34 /* rnweibo.m in Sources */ = {isa = PBXBuildFile; fileRef = A33311231B5E07D400846A34 /* rnweibo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,8 +141,6 @@
 		69A4AC0BAE331E9751580B56 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		A33310861B5DF26300846A34 /* rnweibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rnweibo.h; path = ../xiaoti/rnxiaoti/iOS/rnweibo.h; sourceTree = "<group>"; };
-		A33310871B5DF26300846A34 /* rnweibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = rnweibo.m; path = ../xiaoti/rnxiaoti/iOS/rnweibo.m; sourceTree = "<group>"; };
 		A33310891B5DF40800846A34 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		A333108B1B5DF40E00846A34 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		A333108D1B5DF41400846A34 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
@@ -154,6 +152,8 @@
 		A33310991B5DF44100846A34 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		A333109B1B5DF45500846A34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A333109D1B5DF46A00846A34 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		A33311231B5E07D400846A34 /* rnweibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = rnweibo.m; path = iOS/rnweibo.m; sourceTree = "<group>"; };
+		A33311251B5E07E300846A34 /* rnweibo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = rnweibo.h; path = iOS/rnweibo.h; sourceTree = "<group>"; };
 		AD1FCA3B143287A2457C057A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B23BC359FB4CD36F07225CB4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -274,8 +274,6 @@
 		13B07FAE1A68108700A75B9A /* rnweibo */ = {
 			isa = PBXGroup;
 			children = (
-				A33310861B5DF26300846A34 /* rnweibo.h */,
-				A33310871B5DF26300846A34 /* rnweibo.m */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -283,6 +281,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				A33311231B5E07D400846A34 /* rnweibo.m */,
+				A33311251B5E07E300846A34 /* rnweibo.h */,
 			);
 			name = rnweibo;
 			sourceTree = "<group>";
@@ -634,7 +634,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A33310881B5DF26300846A34 /* rnweibo.m in Sources */,
+				A33311241B5E07D400846A34 /* rnweibo.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
